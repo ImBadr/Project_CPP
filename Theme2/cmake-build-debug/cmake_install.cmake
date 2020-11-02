@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Theme2
+# Install script for directory: /Users/aliciaalmanchko/Desktop/Aide à la décision/Project_CPP/Theme2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Theme2")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Theme2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/aliciaalmanchko/Desktop/Aide à la décision/Project_CPP/Theme2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

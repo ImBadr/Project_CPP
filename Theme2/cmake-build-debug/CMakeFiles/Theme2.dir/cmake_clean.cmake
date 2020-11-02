@@ -1,11 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Theme2.dir/X.cpp.obj"
-  "CMakeFiles/Theme2.dir/complexe.cpp.obj"
-  "CMakeFiles/Theme2.dir/main.cpp.obj"
-  "Theme2.exe"
-  "Theme2.exe.manifest"
+  "CMakeFiles/Theme2.dir/X.cpp.o"
+  "CMakeFiles/Theme2.dir/complexe.cpp.o"
+  "CMakeFiles/Theme2.dir/main.cpp.o"
+  "Theme2"
   "Theme2.pdb"
-  "libTheme2.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

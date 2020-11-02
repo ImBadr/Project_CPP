@@ -6,21 +6,31 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Theme2/X.h
-iostream
--
-cstring
--
-
-C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Theme2/complexe.h
-iostream
--
-cstring
--
-
-C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Theme2/main.cpp
-complexe.h
-C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Theme2/complexe.h
+/Users/aliciaalmanchko/Desktop/Aide à la décision/Project_CPP/Theme2/X.cpp
 X.h
-C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Theme2/X.h
+/Users/aliciaalmanchko/Desktop/Aide à la décision/Project_CPP/Theme2/X.h
+
+/Users/aliciaalmanchko/Desktop/Aide à la décision/Project_CPP/Theme2/X.h
+iostream
+-
+cstring
+-
+
+/Users/aliciaalmanchko/Desktop/Aide à la décision/Project_CPP/Theme2/complexe.cpp
+complexe.h
+/Users/aliciaalmanchko/Desktop/Aide à la décision/Project_CPP/Theme2/complexe.h
+
+/Users/aliciaalmanchko/Desktop/Aide à la décision/Project_CPP/Theme2/complexe.h
+iostream
+-
+cstring
+-
+cmath
+-
+
+/Users/aliciaalmanchko/Desktop/Aide à la décision/Project_CPP/Theme2/main.cpp
+complexe.h
+/Users/aliciaalmanchko/Desktop/Aide à la décision/Project_CPP/Theme2/complexe.h
+X.h
+/Users/aliciaalmanchko/Desktop/Aide à la décision/Project_CPP/Theme2/X.h
 

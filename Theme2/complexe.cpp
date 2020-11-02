@@ -66,10 +66,5 @@ void Complexe::multiplication(int imaginaire, int reel) {
 }
 
 void Complexe::modulo(int imaginaire, int reel) {
-    if (imaginaire == 0 || reel == 0 || this->getImaginaire() == 0 || this->getReel() == 0){
-        cerr << "Modulo 0 impossible" << endl;
-        return;
-    }
-    setImaginaire(this->getImaginaire() % imaginaire);
-    setReel(this->getReel() % reel);
+    cout<<sqrt(pow(this->getImaginaire() + imaginaire,2)+pow(this->getReel() + reel,2))<<endl;
 }
