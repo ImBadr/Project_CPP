@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Theme4/Complex.h
+iostream
+-
+cstring
+-
+cmath
+-
+
+C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Theme4/Vector.h
+iostream
+-
+cstring
+-
+cmath
+-
+
+C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Theme4/main.cpp
+iostream
+-
+Complex.h
+C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Theme4/Complex.h
+Vector.h
+C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Theme4/Vector.h
+

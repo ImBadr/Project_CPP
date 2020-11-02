@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Theme5/U.cpp
+U.h
+C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Theme5/U.h
+
+C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Theme5/U.h
+iostream
+-
+cstring
+-
+cstdlib
+-
+
