@@ -69,5 +69,4 @@ void Complexe::multiplication(int imaginaire, int reel) {
 
 void Complexe::modulo(int imaginaire, int reel) {
     cout << sqrt(pow(this->getImaginaire() + imaginaire, 2) + pow(this->getReel() + reel, 2)) << endl;
-
 }
