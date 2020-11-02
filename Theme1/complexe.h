@@ -1,4 +1,9 @@
-#pragma once
+/**
+ * @author Badr TADJER
+ * @author Alicia BENIDDIR
+ * @date 28/10/2020
+ */
+
 #ifndef _COMPLEXE_
 #define _COMPLEXE_
 
