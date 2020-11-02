@@ -35,7 +35,7 @@ void Complexe::setImaginaire(int imaginaire) {
 
 int Complexe::getReel() const {
     cout << "Getter reel en cours ..." << endl;
-    return _reel;
+    return this->_reel;
 }
 
 int Complexe::getImaginaire() const {
@@ -67,6 +67,17 @@ void Complexe::multiplication(int imaginaire, int reel) {
     setReel(this->getReel() * reel);
 }
 
-void Complexe::modulo(int imaginaire, int reel) {
+void Complexe::modulo(int imaginaire, int reel) const {
     cout << sqrt(pow(this->getImaginaire() + imaginaire, 2) + pow(this->getReel() + reel, 2)) << endl;
+}
+
+void Complexe::saisie() {
+    cout << "Please enter an imaginary : ";
+    cin >> this->_imaginaire;
+    cout << "Please enter a real : ";
+    cin >> this->_reel;
+}
+
+void Complexe::toString() const {
+    cout << this->_reel << "+" << this->_imaginaire << ".i"  << endl;
 }

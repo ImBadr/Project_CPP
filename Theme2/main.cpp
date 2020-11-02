@@ -14,15 +14,11 @@ int main() {
 
     c.setImaginaire(6);
     c.setReel(10);
-
-
-    cout << "Imaginaire :\n" << c.getImaginaire() << " + i"
-         << "\n" << "Reel :\n" << c.getReel() << endl;
-
-    cout << "Imaginaire :\n" << c1.getImaginaire() << " + i"
-         << "\n" << "Reel :\n" << c1.getReel() << endl;
-    cout<<"Module"<<endl;
+//    c.toString();
     c.modulo(3, 0);
+    c.toString();
+    c.saisie();
+    c.toString();
 
 //    ------------------------------------------------------
 
