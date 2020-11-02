@@ -14,7 +14,7 @@ int main() {
 
     c.setImaginaire(6);
     c.setReel(10);
-//    c.toString();
+    c.toString();
     c.modulo(3, 0);
     c.toString();
     c.saisie();
@@ -22,13 +22,13 @@ int main() {
 
 //    ------------------------------------------------------
 
-    //  X x;
+//    X x;
 //    x.toString();
-    //   X x1(x);
+//    X x1(x);
 //    x1.toString();
-    // x.setTab(6, 213);
+//    x.setTab(6, 213);
 //    x.toString();
-    //   x1.toString();
+//    x1.toString();
 
     return 0;
 }
