@@ -1,3 +1,9 @@
+/**
+ * @author Badr TADJER
+ * @author Alicia BENIDDIR
+ * @date 28/10/2020
+ */
+
 #include "complexe.h"
 
 Complexe::Complexe(int imaginaire, int reel) {

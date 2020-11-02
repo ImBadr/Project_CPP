@@ -1,3 +1,9 @@
+/**
+ * @author Badr TADJER
+ * @author Alicia BENIDDIR
+ * @date 28/10/2020
+ */
+
 #include "Y.h"
 #include "D.h"
 #include "O.h"

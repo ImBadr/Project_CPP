@@ -1,3 +1,9 @@
+/**
+ * @author Badr TADJER
+ * @author Alicia BENIDDIR
+ * @date 31/10/2020
+ */
+
 #include "B.h"
 #include "Sess.h"
 #include "T.h"

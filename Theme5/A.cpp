@@ -1,3 +1,9 @@
+/**
+ * @author Badr TADJER
+ * @author Alicia BENIDDIR
+ * @date 31/10/2020
+ */
+
 #include "A.h"
 
 A::A(const string &name, int value) {

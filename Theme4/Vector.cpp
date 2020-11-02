@@ -1,3 +1,9 @@
+/**
+ * @author Badr TADJER
+ * @author Alicia BENIDDIR
+ * @date 30/10/2020
+ */
+
 #include "Vector.h"
 
 Vector::Vector(){

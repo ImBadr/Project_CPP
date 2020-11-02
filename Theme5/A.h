@@ -1,3 +1,9 @@
+/**
+ * @author Badr TADJER
+ * @author Alicia BENIDDIR
+ * @date 31/10/2020
+ */
+
 #ifndef _A_H
 #define _A_H
 
