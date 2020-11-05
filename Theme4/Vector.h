@@ -27,7 +27,6 @@ public:
     Vector operator+(const Vector &c) const;
     Vector operator-(const Vector &c) const;
     Vector operator*(const Vector &c) const;
-    Vector operator/(const Vector &c) const;
     Vector operator=(const Vector &c);
     Vector operator<<(const Vector &c) const;
     Vector operator>>(const Vector &c) const;

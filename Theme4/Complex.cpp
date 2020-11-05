@@ -36,10 +36,6 @@ Complex Complex::operator/(const Complex &c) const {
     return Complex(this->_imaginaire / c._imaginaire, this->_reel / c._reel);
 }
 
-double Complex::module() const {
-    return (sqrt(pow(this->_imaginaire, 2) + pow(this->_reel, 2)));
-}
-
 Complex Complex::operator=(const Complex &c) const {
     return Complex(c._imaginaire, c._reel);
 }

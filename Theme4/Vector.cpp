@@ -109,34 +109,6 @@ Vector Vector::operator*(const Vector &c) const {
     return newVector;
 }
 
-Vector Vector::operator/(const Vector &c) const {
-    Vector newVector;
-    if (this->size > c.size){
-        for (int i = 0; i < c.size; ++i) {
-            if (this->tab[i] == 0 | c.tab[i] == 0){
-                newVector.addValue(0);
-                continue;
-            }
-            newVector.addValue(this->tab[i] / c.tab[i]);
-        }
-    }
-    else if (this->size < c.size){
-        for (int i = 0; i < this->size; ++i) {
-            if (this->tab[i] == 0 | c.tab[i] == 0){
-                newVector.addValue(0);
-                continue;
-            }
-            newVector.addValue(this->tab[i] / c.tab[i]);
-        }
-    }
-    else{
-        for (int i = 0; i < c.size; ++i) {
-            newVector.addValue(this->tab[i] / c.tab[i]);
-        }
-    }
-    return newVector;
-}
-
 Vector Vector::operator=(const Vector &c) {
     return Vector(c);
 }

@@ -27,7 +27,6 @@ int main() {
     cout << "soustraction : ";  (complexe - complexe1).toString();
     cout << "multiplication : ";  (complexe * complexe1).toString();
     cout << "division : ";  (complexe / complexe1).toString();
-    cout << "module : ";  cout << (complexe.module()) << endl;
     cout << "egale : ";  (complexe = complexe1).toString();
     cout << "<< : ";  (complexe << complexe1).toString();
     cout << ">> : ";  (complexe >> complexe1).toString();
@@ -37,7 +36,6 @@ int main() {
 
     Vector vector;
     Vector vector1;
-    Vector resultVector;
 
     vector.addValue(8);
     vector.addValue(5);
@@ -59,7 +57,6 @@ int main() {
     cout << "addition : ";  (vector + vector1).toString();
     cout << "soustraction : ";  (vector - vector1).toString();
     cout << "multiplication : ";  (vector * vector1).toString();
-    cout << "division : ";  (vector / vector1).toString();
     cout << "egale : ";  (vector = vector1).toString();
     cout << "<< : ";  (vector << vector1).toString();
     cout << ">> : ";  (vector >> vector1).toString();

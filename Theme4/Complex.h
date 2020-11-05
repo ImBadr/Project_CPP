@@ -24,7 +24,6 @@ public:
     Complex operator-(const Complex &c) const;
     Complex operator*(const Complex &c) const;
     Complex operator/(const Complex &c) const;
-    double module() const;
     Complex operator=(const Complex &c) const;
     Complex operator<<(const Complex &c) const;
     Complex operator>>(const Complex &c) const;
