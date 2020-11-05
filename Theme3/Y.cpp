@@ -42,7 +42,6 @@ void Y::setValue(int index, int value) {
 }
 
 void Y::toString() {
-    cout << "------" << this->name << "-----" << endl;
     for (int i = 0; i < this->size; i++) {
         cout << this->getValue(i) << endl;
     }

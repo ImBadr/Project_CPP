@@ -14,8 +14,8 @@
 using namespace std;
 
 class D {
-    string name;
-    int value;
+    string _name;
+    int _value;
 public:
     D(const string &name, int value);
     D(string name, const D &d);

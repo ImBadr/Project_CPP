@@ -9,11 +9,11 @@
 
 #include "O.h"
 
-#define line 4
-#define column 3
+#define LINE 4
+#define COLUMN 3
 
 class T {
-    O** tab2D;
+    O** _tab2D;
 public:
     T();
     ~T();

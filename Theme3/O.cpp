@@ -7,18 +7,18 @@
 #include "O.h"
 
 O::O() {
-    cout << "Constructor : O" << endl;
+    cout << "Constructor" << endl;
 }
 
 O::O(const string &name) {
-    this->name = name;
-    cout << "Constructor : " << this->name << endl;
+    this->_name = name;
+    cout << "Constructor : " << this->_name << endl;
 }
 
 O::~O() {
-    cout << "Destructor : " << this->name << endl;
+    cout << "Destructor : " << this->_name << endl;
 }
 
 const string &O::getName() const {
-    return name;
+    return _name;
 }

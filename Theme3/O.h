@@ -14,7 +14,7 @@
 using namespace std;
 
 class O {
-    string name;
+    string _name;
 public:
     O();
     explicit O(const string &name);

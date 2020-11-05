@@ -19,7 +19,7 @@ class Y {
     int *tab;
     int size;
 public:
-    Y(string name);
+    explicit Y(string name);
     Y(string name, Y const &y);
     ~Y();
 
