@@ -4,13 +4,12 @@
  * @date 28/10/2020
  */
 
-#include "complexe.h"
+#include "Complex.h"
 
 int main() {
-    Complexe c(1,5);
+    Complex c(1, 5);
 
-    cout << "Imaginaire :\n" << c.get_reel() << " + i"
-    << "\n" << "Reel :\n" << c.get_imaginaire() << endl;
+    cout << "Imaginary :\n" << c.getReal() << " + i" << "\n" << "Real :\n" << c.getImaginary() << endl;
 
     return 0;
 }

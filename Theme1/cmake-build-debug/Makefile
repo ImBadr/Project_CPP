@@ -142,32 +142,32 @@ Theme1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theme1.dir\build.make CMakeFiles/Theme1.dir/build
 .PHONY : Theme1/fast
 
-complexe.obj: complexe.cpp.obj
+Complex.obj: Complex.cpp.obj
 
-.PHONY : complexe.obj
+.PHONY : Complex.obj
 
 # target to build an object file
-complexe.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theme1.dir\build.make CMakeFiles/Theme1.dir/complexe.cpp.obj
-.PHONY : complexe.cpp.obj
+Complex.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theme1.dir\build.make CMakeFiles/Theme1.dir/Complex.cpp.obj
+.PHONY : Complex.cpp.obj
 
-complexe.i: complexe.cpp.i
+Complex.i: Complex.cpp.i
 
-.PHONY : complexe.i
+.PHONY : Complex.i
 
 # target to preprocess a source file
-complexe.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theme1.dir\build.make CMakeFiles/Theme1.dir/complexe.cpp.i
-.PHONY : complexe.cpp.i
+Complex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theme1.dir\build.make CMakeFiles/Theme1.dir/Complex.cpp.i
+.PHONY : Complex.cpp.i
 
-complexe.s: complexe.cpp.s
+Complex.s: Complex.cpp.s
 
-.PHONY : complexe.s
+.PHONY : Complex.s
 
 # target to generate assembly for a file
-complexe.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theme1.dir\build.make CMakeFiles/Theme1.dir/complexe.cpp.s
-.PHONY : complexe.cpp.s
+Complex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theme1.dir\build.make CMakeFiles/Theme1.dir/Complex.cpp.s
+.PHONY : Complex.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -205,9 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Theme1
-	@echo ... complexe.obj
-	@echo ... complexe.i
-	@echo ... complexe.s
+	@echo ... Complex.obj
+	@echo ... Complex.i
+	@echo ... Complex.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
