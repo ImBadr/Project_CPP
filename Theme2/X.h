@@ -12,10 +12,10 @@
 
 using namespace std;
 
-#define TAILLE 15
+#define SIZE 15
 
 class X {
-    int tab[TAILLE]{};
+    int _tab[SIZE]{};
 public:
     X();
     X(X const &x);

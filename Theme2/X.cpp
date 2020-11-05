@@ -7,30 +7,30 @@
 #include "X.h"
 
 X::X() {
-    cout << "Constructeur de X" << endl;
-    for (int i = 0; i < TAILLE; ++i) {
-        this->tab[i] = i;
+    cout << "Constructor" << endl;
+    for (int i = 0; i < SIZE; ++i) {
+        this->_tab[i] = i;
     }
 }
 
 X::X(X const &x) {
-    cout << "Constructeur par recopie de X" << endl;
-    for (int i = 0; i < TAILLE; ++i) {
-        this->tab[i] = x.tab[i];
+    cout << "Constructor by copy" << endl;
+    for (int i = 0; i < SIZE; ++i) {
+        this->_tab[i] = x._tab[i];
     }
 }
 
 X::~X() {
-    cout << "Destructor de X" << endl;
+    cout << "Destructor" << endl;
 }
 
 void X::setTab(int index, int value) {
-    this->tab[index] = value;
+    this->_tab[index] = value;
 }
 
 void X::toString() {
-    for (int i = 0; i < TAILLE; ++i) {
-        cout << this->tab[i] << " | ";
+    for (int i = 0; i < SIZE; ++i) {
+        cout << this->_tab[i] << " | ";
     }
     cout << endl;
 }

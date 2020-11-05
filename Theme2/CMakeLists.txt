@@ -3,4 +3,4 @@ project(Theme2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Theme2 main.cpp complexe.cpp complexe.h X.cpp X.h)
+add_executable(Theme2 main.cpp Complex.cpp Complex.h X.cpp X.h)
