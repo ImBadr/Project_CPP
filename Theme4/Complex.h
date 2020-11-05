@@ -14,10 +14,10 @@
 using namespace std;
 
 class Complex {
-    int _reel;
-    int _imaginaire;
+    int _real;
+    int _imaginary;
 public:
-    explicit Complex(int imaginaire = 0, int reel = 0);
+    explicit Complex(int imaginary = 0, int reel = 0);
     ~Complex();
 
     Complex operator+(const Complex &c) const;

@@ -14,8 +14,8 @@
 using namespace std;
 
 class Vector {
-    int* tab{};
-    int size;
+    int* _tab{};
+    int _size;
 public:
     Vector();
     Vector(const Vector &c);

@@ -10,26 +10,26 @@
 
 int main() {
 /*
- * Que peut-on dire maintenant de la classe complexe ?
+ * Que peut-on dire maintenant de la classe complex ?
  *
  * Elle redéfinit les opérateurs (+ - * / << >> =)
  * pour les appliquer à des nombres complexes
  */
-    Complex complexe(8, 5);
-    Complex complexe1(1, 9);
+    Complex complex(8, 5);
+    Complex complex1(1, 9);
 
-    cout << "complexe : ";  complexe.toString();
-    cout << "complexe1 : "; complexe1.toString();
+    cout << "complex : ";  complex.toString();
+    cout << "complex1 : "; complex1.toString();
 
     cout << endl;
 
-    cout << "addition : ";  (complexe + complexe1).toString();
-    cout << "soustraction : ";  (complexe - complexe1).toString();
-    cout << "multiplication : ";  (complexe * complexe1).toString();
-    cout << "division : ";  (complexe / complexe1).toString();
-    cout << "egale : ";  (complexe = complexe1).toString();
-    cout << "<< : ";  (complexe << complexe1).toString();
-    cout << ">> : ";  (complexe >> complexe1).toString();
+    cout << "addition : ";  (complex + complex1).toString();
+    cout << "subtraction : ";  (complex - complex1).toString();
+    cout << "multiplication : ";  (complex * complex1).toString();
+    cout << "division : ";  (complex / complex1).toString();
+    cout << "equal : ";  (complex = complex1).toString();
+    cout << "<< : ";  (complex << complex1).toString();
+    cout << ">> : ";  (complex >> complex1).toString();
 
     cout << endl;
     cout << endl;
@@ -49,15 +49,15 @@ int main() {
     vector1.addValue(20);
     vector1.addValue(70);
 
-    cout << "complexe : ";  vector.toString();
-    cout << "complexe1 : "; vector1.toString();
+    cout << "vector : ";  vector.toString();
+    cout << "vector1 : "; vector1.toString();
 
     cout << endl;
 
     cout << "addition : ";  (vector + vector1).toString();
-    cout << "soustraction : ";  (vector - vector1).toString();
+    cout << "subtraction : ";  (vector - vector1).toString();
     cout << "multiplication : ";  (vector * vector1).toString();
-    cout << "egale : ";  (vector = vector1).toString();
+    cout << "equal : ";  (vector = vector1).toString();
     cout << "<< : ";  (vector << vector1).toString();
     cout << ">> : ";  (vector >> vector1).toString();
 

@@ -6,48 +6,45 @@
 
 #include "Complex.h"
 
-Complex::Complex(int imaginaire, int reel) {
-//    cout << "Constructor" << endl;
-    this->_imaginaire = imaginaire;
-    this->_reel = reel;
+Complex::Complex(int imaginary, int reel) {
+    this->_imaginary = imaginary;
+    this->_real = reel;
 }
 
-Complex::~Complex(){
-//    cout << "Destructor" << endl;
-}
+Complex::~Complex()= default;
 
 Complex Complex::operator+(const Complex &c) const {
-    return Complex(this->_imaginaire + c._imaginaire, this->_reel + c._reel);
+    return Complex(this->_imaginary + c._imaginary, this->_real + c._real);
 }
 
 Complex Complex::operator-(const Complex &c) const {
-    return Complex(this->_imaginaire - c._imaginaire, this->_reel - c._reel);
+    return Complex(this->_imaginary - c._imaginary, this->_real - c._real);
 }
 
 Complex Complex::operator*(const Complex &c) const {
-    return Complex(this->_imaginaire * c._imaginaire, this->_reel * c._reel);
+    return Complex(this->_imaginary * c._imaginary, this->_real * c._real);
 }
 
 Complex Complex::operator/(const Complex &c) const {
-    if (c._imaginaire == 0 || c._reel == 0 || this->_imaginaire == 0 || this->_reel == 0){
-        cerr << "Division / par 0 impossible" << endl;
+    if (c._imaginary == 0 || c._real == 0 || this->_imaginary == 0 || this->_real == 0){
+        cerr << "Division / by 0 impossible" << endl;
         exit(-1);
     }
-    return Complex(this->_imaginaire / c._imaginaire, this->_reel / c._reel);
+    return Complex(this->_imaginary / c._imaginary, this->_real / c._real);
 }
 
 Complex Complex::operator=(const Complex &c) const {
-    return Complex(c._imaginaire, c._reel);
+    return Complex(c._imaginary, c._real);
 }
 
 Complex Complex::operator<<(const Complex &c) const {
-    return Complex(this->_imaginaire << c._imaginaire, this->_reel << c._reel);
+    return Complex(this->_imaginary << c._imaginary, this->_real << c._real);
 }
 
 Complex Complex::operator>>(const Complex &c) const {
-    return Complex(this->_imaginaire >> c._imaginaire, this->_reel >> c._reel);
+    return Complex(this->_imaginary >> c._imaginary, this->_real >> c._real);
 }
 
 void Complex::toString() const {
-    cout << this->_imaginaire << ".i + " << this->_reel << endl;
+    cout << this->_imaginary << ".i + " << this->_real << endl;
 }
