@@ -142,6 +142,33 @@ Theme2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theme2.dir\build.make CMakeFiles/Theme2.dir/build
 .PHONY : Theme2/fast
 
+Complex.obj: Complex.cpp.obj
+
+.PHONY : Complex.obj
+
+# target to build an object file
+Complex.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theme2.dir\build.make CMakeFiles/Theme2.dir/Complex.cpp.obj
+.PHONY : Complex.cpp.obj
+
+Complex.i: Complex.cpp.i
+
+.PHONY : Complex.i
+
+# target to preprocess a source file
+Complex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theme2.dir\build.make CMakeFiles/Theme2.dir/Complex.cpp.i
+.PHONY : Complex.cpp.i
+
+Complex.s: Complex.cpp.s
+
+.PHONY : Complex.s
+
+# target to generate assembly for a file
+Complex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theme2.dir\build.make CMakeFiles/Theme2.dir/Complex.cpp.s
+.PHONY : Complex.cpp.s
+
 X.obj: X.cpp.obj
 
 .PHONY : X.obj
@@ -168,33 +195,6 @@ X.s: X.cpp.s
 X.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theme2.dir\build.make CMakeFiles/Theme2.dir/X.cpp.s
 .PHONY : X.cpp.s
-
-complexe.obj: complexe.cpp.obj
-
-.PHONY : complexe.obj
-
-# target to build an object file
-complexe.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theme2.dir\build.make CMakeFiles/Theme2.dir/complexe.cpp.obj
-.PHONY : complexe.cpp.obj
-
-complexe.i: complexe.cpp.i
-
-.PHONY : complexe.i
-
-# target to preprocess a source file
-complexe.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theme2.dir\build.make CMakeFiles/Theme2.dir/complexe.cpp.i
-.PHONY : complexe.cpp.i
-
-complexe.s: complexe.cpp.s
-
-.PHONY : complexe.s
-
-# target to generate assembly for a file
-complexe.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theme2.dir\build.make CMakeFiles/Theme2.dir/complexe.cpp.s
-.PHONY : complexe.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -232,12 +232,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Theme2
+	@echo ... Complex.obj
+	@echo ... Complex.i
+	@echo ... Complex.s
 	@echo ... X.obj
 	@echo ... X.i
 	@echo ... X.s
-	@echo ... complexe.obj
-	@echo ... complexe.i
-	@echo ... complexe.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -80,16 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme2/Complex.cpp">
+			<Option target="Theme2"/>
+		</Unit>
+		<Unit filename="C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme2/Complex.h">
+			<Option target="Theme2"/>
+		</Unit>
 		<Unit filename="C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme2/X.cpp">
 			<Option target="Theme2"/>
 		</Unit>
 		<Unit filename="C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme2/X.h">
-			<Option target="Theme2"/>
-		</Unit>
-		<Unit filename="C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme2/complexe.cpp">
-			<Option target="Theme2"/>
-		</Unit>
-		<Unit filename="C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme2/complexe.h">
 			<Option target="Theme2"/>
 		</Unit>
 		<Unit filename="C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme2/main.cpp">

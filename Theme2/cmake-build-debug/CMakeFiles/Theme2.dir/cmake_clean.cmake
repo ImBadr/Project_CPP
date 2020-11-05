@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Theme2.dir/Complex.cpp.obj"
   "CMakeFiles/Theme2.dir/X.cpp.obj"
-  "CMakeFiles/Theme2.dir/complexe.cpp.obj"
   "CMakeFiles/Theme2.dir/main.cpp.obj"
   "Theme2.exe"
   "Theme2.exe.manifest"
