@@ -10,7 +10,7 @@
 #include "U.h"
 
 class T {
-    U* u;
+    U* _u;
 public:
     explicit T(string name);
     explicit T(const U& u);

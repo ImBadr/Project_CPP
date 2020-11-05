@@ -14,15 +14,14 @@
 using namespace std;
 
 class A {
-    string name;
-    int value;
+    string _name;
+    int _value;
 public:
     A(const string &name, int value);
     A(const A &a);
     virtual ~A();
 
     void toString();
-
 };
 
 #endif // _A_H

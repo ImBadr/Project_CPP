@@ -14,7 +14,7 @@
 using namespace std;
 
 class U {
-    string name;
+    string _name;
 public:
     explicit U(string name);
     U(const U &u);

@@ -15,9 +15,9 @@
 using namespace std;
 
 class Y {
-    string name;
-    int *tab;
-    int size;
+    string _name;
+    int *_tab;
+    int _size;
 public:
     explicit Y(string name);
     Y(string name, Y const &y);

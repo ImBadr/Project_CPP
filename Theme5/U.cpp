@@ -6,17 +6,17 @@
 
 #include "U.h"
 
-U::U(string name) : name(move(name)) {}
+U::U(string name) : _name(move(name)) {}
 
 U::U(const U &u){
-    this->name = u.name;
+    this->_name = u._name;
 }
 
 U::~U() {
-    cout << this->name << endl;
+    cout << this->_name << endl;
     delete this;
 }
 
 const string &U::getName() const {
-    return name;
+    return _name;
 }

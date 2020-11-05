@@ -10,7 +10,7 @@
 #include "A.h"
 
 class B {
-    A a;
+    A _a;
 public:
     explicit B(const string& name, int value);
     explicit B(const A& a);

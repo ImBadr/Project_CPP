@@ -14,11 +14,11 @@
 using namespace std;
 
 class Sess {
-    int value;
+    int _value;
 public:
-    static int nbObjects;
-    static int BORNEMAX;
-    static int BORNEMIN;
+    static int NB_OBJECTS;
+    static int BORNE_MAX;
+    static int BORNE_MIN;
     Sess();
     virtual ~Sess();
 
