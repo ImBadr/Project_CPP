@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme5/A.cpp
-A.h
-C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme5/A.h
-
 C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme5/A.h
 iostream
 -
@@ -18,17 +14,9 @@ cstring
 cstdlib
 -
 
-C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme5/B.cpp
-B.h
-C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme5/B.h
-
 C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme5/B.h
 A.h
 C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme5/A.h
-
-C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme5/Sess.cpp
-Sess.h
-C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme5/Sess.h
 
 C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme5/Sess.h
 iostream
@@ -38,15 +26,7 @@ cstring
 cstdlib
 -
 
-C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme5/T.cpp
-T.h
 C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme5/T.h
-
-C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme5/T.h
-U.h
-C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme5/U.h
-
-C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme5/U.cpp
 U.h
 C:/Users/Badr/Documents/LYCEE_IUT_EI/3_EFREI/L3/Semestre_05/Programmation_C_C++/ProjetC++/Project_CPP/Theme5/U.h
 
